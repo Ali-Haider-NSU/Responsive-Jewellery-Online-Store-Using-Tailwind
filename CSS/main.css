@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.md-position{
-    
-        background-image: url('img/b2.jpg');
-        background-size: cover; /* Adjust as needed */
-        background-repeat: no-repeat; /* Adjust as needed */
-    
+.single-div{
+    @apply justify-center bg-[#EEEEEE] h-[300px] mx-10 sm:mx-0 rounded-lg relative;
+}
+
+.single-new{
+        @apply absolute w-14 h-14 bg-white  left-5 top-5 flex items-center justify-center rounded-full;
 }
