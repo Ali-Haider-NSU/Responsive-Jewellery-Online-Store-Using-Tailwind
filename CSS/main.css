@@ -9,3 +9,7 @@
 .single-new{
         @apply absolute w-14 h-14 bg-white  left-5 top-5 flex items-center justify-center rounded-full;
 }
+
+.arrow-btn{
+    @apply flex justify-center items-center w-[45px] h-[45px] bg-[#FD9C6B] rounded-lg hover:bg-black transition;
+}
