@@ -13,3 +13,8 @@
 .arrow-btn{
     @apply flex justify-center items-center w-[45px] h-[45px] bg-[#FD9C6B] rounded-lg hover:bg-black transition;
 }
+
+
+.social-icon{
+    @apply text-white hover:text-[#FD7730] border-[1px] hover:border-[#FD7730] w-14 h-14 flex justify-center items-center cursor-pointer text-xl transition;
+}
